@@ -9,7 +9,7 @@
 - nltk.stem.WordNetLemmatizator
 - sklearn.feature_extraction.text.TfidfVectorizer
 - sklearn.linear_model.LogisticRegression
-- sklearn.tree.DesisionTreeRegressor
+- sklearn.tree.DecisionTreeRegressor
 - catboost.CatBoostClassifier
 ## Вывод
 Была проведена исследовательская работа по анализу и обработке текстов.  Для определения токсичных комментариев по методу TF-IDF были обучены три модели машинного обучения. Лучшей выбрана модель логистической регрессии. 
